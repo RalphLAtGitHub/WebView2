@@ -9,6 +9,8 @@
         Me.IsMdiContainer = True
         Me.StartPosition = FormStartPosition.CenterScreen
         Me.Button2.Enabled = False
+        
+        'm_WebViewForm = New WebViewForm With {.MdiParent = Me}  'Should generating a form in reserve be a coherent solution?  
 
     End Sub
 
